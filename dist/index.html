@@ -1,0 +1,11 @@
+<div x-data="{ show: false, value: '' }" class="password-input-wrap">
+    <label>Password</label>
+
+    <input x-ref="input" :type="show ? 'text' : 'password'" x-model="value">
+
+    <button @click.prevent="show = !show; $refs.input.focus();" x-text="show ? 'Hide' : 'Show'">Show</button>
+
+    <button @click="alert(value)">Display</button>
+</div>
+
+<script src="/alpine-playground.e31bb0bc.js" defer=""></script>

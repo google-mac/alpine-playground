@@ -1,0 +1,13 @@
+{
+  "name": "alpine-playground",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "alpinejs": "^1.5.0"
+  }
+}
